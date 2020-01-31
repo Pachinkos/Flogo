@@ -1,4 +1,4 @@
-module github.com/project-flogo/contrib/function/number
+module github.com/project-flogo/contrib/function/string
 
 require (
 	github.com/pkg/errors v0.9.1 // indirect

@@ -1,15 +1,15 @@
 {
   "name": "condition",
   "type": "flogo:function",
-  "version": "0.10.0",
+  "version": "0.1.0",
   "title": "Condition Functions",
   "description": "Condition Functions",
-  "homepage": "https://github.com/Pachinkos/Flogo/extensions/function/condition",
+  "homepage": "https://github.com/Pachinkos/Flogo/tree/master/extensions/functions/condition",
   "functions": [
     {
       "name": "if",
       "description": "return the first or the second parameter",
-      "example": "if true -> return first parameter",
+      "example": "if true return first parameter",
       "varArgs": true,
       "args": [
         {
