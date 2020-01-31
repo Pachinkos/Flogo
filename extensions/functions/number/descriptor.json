@@ -1,0 +1,25 @@
+{
+  "name": "number",
+  "type": "flogo:function",
+  "version": "0.10.0",
+  "title": "Number Functions",
+  "description": "Number Functions",
+  "homepage": "https://github.com/Pachinkos/Flogo/tree/master/extensions/functions/number",
+  "functions": [
+    {
+      "name": "random2",
+      "description": "generate a random number",
+      "example": "number.random(100) => 90",
+      "varArgs": true,
+      "args": [
+        {
+          "name": "limit",
+          "type": "int"
+        }
+      ],
+      "return": {
+        "type": "int"
+      }
+    }
+  ]
+}
