@@ -1,4 +1,4 @@
-module github.com/project-flogo/contrib/function/string
+module github.com/Pachinkos/Flogo/extensions/functions/condition
 
 require (
 	github.com/pkg/errors v0.9.1 // indirect
