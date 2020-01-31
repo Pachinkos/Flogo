@@ -13,4 +13,10 @@ func TestStaticFunc_Eq(t *testing.T) {
 
 	final2, _ := c.Eval(false, "tibcoTrue", "tibcoFalse")
 	assert.Equal(t, "tibcoFalse", final2)
+
+	final3, _ := c.Eval(true, 10, "tibcoFalse")
+	assert.Equal(t, 10, final2)
+
+	final3, _ := c.Eval(false, 10, "tibcoFalse")
+	assert.Equal(t, "tibcoFalse", final2)
 }

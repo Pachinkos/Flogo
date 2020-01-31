@@ -28,19 +28,10 @@ func (fnIf) Eval(params ...interface{}) (interface{}, error) {
 	if err != nil {
 		return nil, fmt.Errorf("condition.if function first parameter [%+v] must be a boolean", params[0])
 	}
-	
-	s1, err := coerce.ToString(params[1])
-	if err != nil {
-		return nil, fmt.Errorf("condition.if function second parameter [%+v] must be string", params[1])
-	}
-	s2, err := coerce.ToString(params[2])
-	if err != nil {
-		return nil, fmt.Errorf("condition.if function third parameter [%+v] must be string", params[2])
-	}
 
 	if b {
-		return s1, nil
+		return params[1], nil
 	}else{
-		return s2, nil
+		return params[2], nil
 	}
 }

@@ -1,7 +1,7 @@
 {
   "name": "condition",
   "type": "flogo:function",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "title": "Condition Functions",
   "description": "Condition Functions",
   "homepage": "https://github.com/Pachinkos/Flogo/tree/master/extensions/functions/condition",
@@ -17,15 +17,15 @@
         },
         {
           "name": "firstString",
-          "type": "string"
+          "type": "any"
         },
         {
           "name": "secondString",
-          "type": "string"
+          "type": "any"
         }
       ],
       "return": {
-        "type": "string"
+        "type": "any"
       }
     }
   ]
