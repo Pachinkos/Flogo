@@ -17,7 +17,7 @@ type fnRandom2 struct {
 }
 
 func (fnRandom2) Name() string {
-	return "random"
+	return "random2"
 }
 
 func (fnRandom2) Sig() (paramTypes []data.Type, isVariadic bool) {
