@@ -10,7 +10,6 @@
       "name": "if",
       "description": "return the first or the second parameter",
       "example": "if true return first parameter",
-      "varArgs": true,
       "args": [
         {
           "name": "condition",
