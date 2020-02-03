@@ -16,11 +16,11 @@
           "type": "boolean"
         },
         {
-          "name": "firstString",
+          "name": "any1",
           "type": "any"
         },
         {
-          "name": "secondString",
+          "name": "any2",
           "type": "any"
         }
       ],
