@@ -1,4 +1,4 @@
-module /Pachinkos/Flogo/extensions/activity/sendmailevent
+module Pachinkos/Flogo/extensions/activity/sendmailevent
 
 go 1.13
 
