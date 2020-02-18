@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "title": "MailEvent Activity",
   "description": "Send email event(ics) Activity",
-  "homepage": "https://github.com/project-flogo/contrib/tree/master/activity/counter",
+  "homepage": "https://github.com/Pachinkos/Flogo/tree/master/extensions/activity/send-mail-event",
   "settings":[
     {
       "name": "emailConfig",
