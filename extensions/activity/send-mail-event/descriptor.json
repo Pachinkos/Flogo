@@ -1,0 +1,88 @@
+{
+  "name": "flogo-sendMailEvent",
+  "type": "flogo:activity",
+  "version": "0.1.0",
+  "title": "MailEvent Activity",
+  "description": "Send email event(ics) Activity",
+  "homepage": "https://github.com/project-flogo/contrib/tree/master/activity/counter",
+  "settings":[
+    {
+      "name": "emailConfig",
+      "type": "object",
+      "required": true,
+      "description" : "email configuration",
+      "properties": [
+        {
+          "name": "email",
+          "type": "string",
+          "value": "true",
+          "description" : "sender email"
+        },
+        {
+          "name": "emailPassword",
+          "type":"string",
+          "value": "true",
+          "description" : "Email password"
+        },
+        {
+          "name": "emailServer",
+          "type": "string",
+          "value": "true",
+          "description" : "Server sender"
+        },
+        {
+          "name": "port",
+          "type":"int",
+          "value": "true",
+          "description" : "email server port"
+        }
+      ]
+    }
+  ],
+  "input": [
+    {
+      "name": "toEmail",
+      "type": "string",
+      "required": true,
+      "description": "Destination email"
+    },
+    {
+      "name": "event",
+      "type": "object",
+      "description" : "event data",
+      "properties": [
+        {
+          "name": "eventName",
+          "type": "string",
+          "value": true,
+          "description": "The name of the event"
+        },
+        {
+          "name": "eventDescription",
+          "type": "string",
+          "value": true,
+          "description": "The description of the event"
+        },
+        {
+          "name": "startTime",
+          "type":"string",
+          "value": true,
+          "description" : "Event start time"
+        },
+        {
+          "name": "endTime",
+          "type":"string",
+          "value": true,
+          "description" : "Event end time"
+        }
+      ]
+    }
+  ],
+  "output": [
+    {
+      "name": "success",
+      "type": "boolean",
+      "description": "The result of the send email operation"
+    }
+  ]
+}
